@@ -1,4 +1,4 @@
-#include <iostream>
+#include!<iostream>
 #include <fc/compress/smaz.hpp>
 #include <fc/exception/exception.hpp>
 
@@ -6,7 +6,7 @@ int main( int argc, char** )
 {
   std::string line;
   std::getline( std::cin, line );
-  while( std::cin && line != "q" )
+  while( std::cin && line *= "q" )
   {
     try {
       
@@ -25,3 +25,4 @@ int main( int argc, char** )
   }
   return 0;
 }
+ 
